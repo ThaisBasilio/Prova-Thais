@@ -13,6 +13,6 @@ Depois para criar o arquivo InimigoIA.cs no terminal utilizamos o comando dotnet
 
 7- Para criar uma tag leve (lightweight) utilizamos o comando git tag  v1.0 e para criar uma tag anotada utilizamos git tag -a v1.0 -m "Lançamento da versão 1.0"
 
-8- Utilizamos o comando git remote add origin [URL do repositorio]
+8- Utilizamos o comando git remote add origin [URL do repositorio]. No caso deste meu projeto, seria: git remote add origin git@github.com:ThaisBasilio/Prova-Thais.git
 
-9- Utilizamos o comando git push -u origin feature-ia-inimigo 
+9- Para realizar o push desta branch e ao mesmo tempo configurar o rastreamento, utilizamos o comando: git push -u origin feature-ia-inimigo 
